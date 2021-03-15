@@ -1,2 +1,2 @@
 # rentalx
-Rentalx - API com NodeJS
+Rentalx - API developed with NodeJS
