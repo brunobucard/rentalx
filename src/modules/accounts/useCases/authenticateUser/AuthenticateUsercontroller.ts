@@ -1,7 +1,7 @@
 import {Request, Response } from "express";
 import { container } from "tsyringe";
 import { RepositoryNotTreeError } from "typeorm";
-import { AuthenticateUserUseCase } from "./authenticateUserUseCase";
+import { AuthenticateUserUseCase } from "./AuthenticateUserUseCase";
 
 class AuthenticateUserController {
 
