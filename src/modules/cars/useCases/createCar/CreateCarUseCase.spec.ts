@@ -54,13 +54,12 @@ describe("Create Car", () => {
       name: "Car available",
       description: "Description Car",
       daily_rate: 100,
-      license_plate: "ACB-1234",
+      license_plate: "ABC-1234",
       fine_amount: 60,
       brand: "brand",
       category_id: "category",
     });
 
-    console.log(car);
     expect(car.available).toBe(true);
   });
 });

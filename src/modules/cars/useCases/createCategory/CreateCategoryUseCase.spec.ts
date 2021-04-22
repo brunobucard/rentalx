@@ -24,12 +24,12 @@ describe("Create Category", () => {
       description: category.description,
     });
 
-    console.log("passou 1");
+    
 
     const categoryCreated = await categoriesRepositoryInMemory.findByName(
       category.name
     );
-    console.log(categoryCreated);
+    
 
     expect(categoryCreated).toHaveProperty("id");
   });
