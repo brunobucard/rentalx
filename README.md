@@ -42,7 +42,7 @@ Não deve ser possível cadastrar um especificação para um carro não cadastra
 Não deve ser possível cadastrar uma especificação já existente para o mesmo carro.
 O usuário responsável pelo cadastro deve ser um usuário administrador.
 
-# Cadastro de imgens do carro
+# Cadastro de imagens do carro
 
 **RF**
 Deve ser possível cadastrar a imagem do carro
